@@ -39,9 +39,3 @@ print(decode('H2ll4 W4rld'))
 
 print(decode('3 l4v2 Pyth4n pr4gr1mm3ng'))
 # Will output: I love Python programming
-
-
-''' ### Notes ###
- 1. This solution converts string into a list for efficiency purpose. Alternative solution for replacing a character in the string is to use str.replace().
- 2. Handles encoding upper-case letters; however, decoding output is only lower-case.
-'''
